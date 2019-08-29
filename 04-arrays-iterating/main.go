@@ -2,7 +2,7 @@
 
 // Slice: An array that can grow or shrink
 // every element of a slice must be of same data type
-
+// [] == slice of strings etc ..
 package main
 
 import "fmt"
