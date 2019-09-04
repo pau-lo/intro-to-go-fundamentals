@@ -9,7 +9,8 @@ package main
 import "fmt"
 
 // at the package level
-var l int = 99
+var i int = 99 // inside main there's other i thus will
+// shadow this i and it will take precedence
 
 func main() {
 	// 3 ways to declare
@@ -31,6 +32,4 @@ func main() {
 	fmt.Printf("%v, %T", j, j)
 
 	fmt.Println(k)
-
-	fmt.Println(l)
 }
