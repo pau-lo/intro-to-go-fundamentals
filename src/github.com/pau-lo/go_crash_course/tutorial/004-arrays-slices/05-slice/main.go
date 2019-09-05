@@ -1,0 +1,18 @@
+// array of arrays
+
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+
+	a := []int{1, 2, 3}
+	//b := a // assing to copy of array a
+
+	fmt.Println(a)
+	fmt.Printf("Length: %v\n", len(a))
+	fmt.Printf("Capacity: %v\n", cap(a))
+
+}
