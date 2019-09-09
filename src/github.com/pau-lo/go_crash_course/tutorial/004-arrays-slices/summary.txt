@@ -17,4 +17,3 @@ Arrays and Slices
     - cap function returns length of underlying array
     - append function to add elements to slice
     - slice copies refer to same underlying array
-
