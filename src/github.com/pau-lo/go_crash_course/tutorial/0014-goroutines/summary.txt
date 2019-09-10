@@ -10,7 +10,7 @@
     ============================================================
 
 
-- Creating gorooutines
+- Creating go-rooutines
     - use go keyword in front of function call
     - when using anonymous functions, pass data as local variables
 
