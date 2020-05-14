@@ -1,13 +1,9 @@
 - Best Practices 
     - Don't create go-routines in libraries
     - Let consumer control concurrency
-    
-    - When creating a go-routine know ow it will end
+    - When creating a go-routine know how it will end
         - avoids subtle memory leaks
-
     - Check for race conditions at compile time
-
-    ============================================================
 
 
 - Creating go-rooutines
